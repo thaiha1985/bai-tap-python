@@ -1,0 +1,3 @@
+temp_c = float(input('Nhập nhiệt độ theo độ c:'))
+temp_f = ((9 / 5) * temp_c) + 32
+print('Nhiệt độ F là:', temp_f)
