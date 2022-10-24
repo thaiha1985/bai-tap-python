@@ -1,0 +1,12 @@
+import tensorflow as tf
+import numpy as np
+arr_np = np.arange(10)
+print(arr_np)
+print('-------------')
+arr_tf = tf.convert_to_tensor(arr_np)
+print(arr_tf)
+print(arr_tf.shape)
+print('-------------')
+arr_np_back = arr_tf.numpy()
+print(arr_np_back)
+print(arr_np_back.shape)
